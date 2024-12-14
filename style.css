@@ -1,0 +1,274 @@
+
+.redes {
+    background-color: #2D2125;  
+}
+
+#nombre {
+    font-family: 'Finger Paint';
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+header {
+    background-color: #181316 !important; 
+    color: #ffffff; 
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #181316; 
+    font-family: 'Montserrat';
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; 
+    font-size: 16px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    margin-left: 20px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .navbar-toggler {
+        margin-left: 10px;
+    }
+}
+.nombre:hover {
+    text-decoration: none;
+    color: inherit;
+}
+p {
+    font-family: 'Montserrat';
+}
+.container p {
+    text-align: justify;
+}
+
+
+.carousel-inner .carousel-item img {
+    width: 500px;       
+    height: 500px;      
+    object-fit: cover;  
+}
+.img-blur {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in-out;
+}
+.carousel-item:hover .img-blur{
+    filter: blur(5px); 
+  }
+.carousel-caption {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    width: 100%;
+  }
+  .Nosotros {
+    background-color: #2D2125;
+    padding: 40px 0;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+
+}
+
+
+.Nosotros p {
+    color: #FFFFFF !important;
+    font-family: 'Montserrat';
+    width: 50%;
+    text-align: justify;
+    margin: 0 auto;   
+}
+
+h2 {
+    font-size: 50px; 
+    font-family: 'Raleway';
+    color: #BC9B5D; 
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-family: 'Bebas Neue';
+        font-size: 25px; 
+    }
+
+
+}
+
+h4 {
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+}
+
+.metod-description {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+}
+
+.metod-img {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.metod-img:hover {
+    transform: scale(1.1);
+}
+
+.metod-img {
+    border-radius: 20px !important;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .metod-img {
+        margin-top: 40px;
+        max-height: 200px;
+    }
+
+    .metod-description {
+        font-size: 14px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: #231D1F;
+}
+h5 {
+        font-family: 'Bebas Neue';
+    font-size: 80px;
+    font-weight: bold;
+}
+.btn {
+    background-color: black; 
+    color: white; 
+    border: 2px solid #6E5B59; 
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    transition: background-color 0.3s, border-color 0.3s; 
+  }
+  
+  .btn:hover {
+    background-color: grey; 
+    border-color: grey; 
+  }
+#Metodos {
+    background-color: #181316;
+}
+#locales {
+    background-color: #181316;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.containerF {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagen {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.form-container {
+    flex: 1;
+    width: 40%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4b4d4c;
+}
+
+textarea {
+    resize: vertical;
+}
+
+footer {
+    background-color: #2D2125 !important; 
+    text-align: center;  
+    padding: 20px 0; 
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100px;  
+}
+
+footer p {
+    font-family: 'Montserrat';
+    color: #ffffff; 
+    margin: 0;  
+    padding: 0;  
+}
